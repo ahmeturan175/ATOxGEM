@@ -1,4 +1,67 @@
 🎓 ATÖxGem v7.0 (Absolut)
+ATÖxGem is an advanced, Python-based academic assistant software designed to automate the tedious and time-consuming tasks of writing theses and academic papers in seconds.
+
+It allows you to manage processes like cross-reference validation, smart PDF archive matching, and automatic source downloading from a single interface—automating the manual workflows where standard reference management tools (like Mendeley, EndNote) often fall short.
+
+🚀 Key Features
+1. Cross-Check & Error Analysis
+Verifies whether the in-text citations (APA or Numbered system) actually exist in your bibliography list.
+
+🟩 Green: Perfect match.
+
+🟨 Yellow: "Suspicious" matches with minor typos or year discrepancies.
+
+🟥 Red: Citations forgotten in the bibliography or "phantom references" not used in the text.
+
+Reporting: Generates a detailed .txt error report and a color-coded Word document output.
+
+2. PDF Archive Scanner (Archive Matching)
+Reads the citations in your Word document, scans your local PDF archive (folder), and finds the matching articles.
+
+Automatically copies all found PDFs into a new 1_Bulunan_PDFler folder.
+
+Identifies and reports the missing articles that are not in your archive.
+
+3. Bulk Download Panel (Link Harvester)
+Scans your bibliography list to find the most up-to-date download links or DOI addresses on the internet (via CrossRef, Semantic Scholar, Europe PMC, Unpaywall).
+
+HTML Panel: Presents the found links as an interactive HTML page.
+
+One-Click Download: Allows you to simultaneously download all missing article PDFs via your browser using the "Open All" button.
+
+4. Automatic APA 7 Bibliography Generator
+Reads hidden metadata (like DOIs) inside matched PDFs, verifies them online, and lists these sources in a standard APA 7 formatted Word document (3_APA_Kaynakca.docx).
+
+🛠️ Technical Infrastructure
+Python 3.10+: Robust and flexible architecture.
+
+Tkinter UI: Multi-language (TR, EN, ES, FR, DE), multithreaded (freeze-free) modern interface.
+
+Python-Docx: Millimetric manipulation and color-coding on Word documents.
+
+Regex Engine: Advanced text processing engine that parses citations and author names accurately.
+
+API Integrations: Real-time data exchange with global open-access academic databases.
+
+📂 File Structure and Outputs
+When the program finishes its execution, it creates a folder based on your Word document's name containing:
+
+1_Cift_Yonlu_Kontrol_Edilmis_Metin.docx: The color-coded main text where citations are verified.
+
+1_Bulunan_PDFler/: The pool of matched articles collected for you from your archive.
+
+2_Arsivde_Bulunamayan_Atiflar.txt: The list of missing sources.
+
+3_APA_Kaynakca.docx: Automatically generated APA 7 bibliography.
+
+5_Toplu_Indirme_Paneli.html: The interactive download interface for sources found on the internet.
+
+🤝 Developer Note
+ATÖxGem is designed with AI support (mostly Gemini 3.1 Pro) for researchers who want to use their time more efficiently while maintaining academic discipline. The software's goal is to reduce human error in formatting and control processes to zero, allowing the researcher to focus solely on the content.
+
+--------------------------------------------------(TR)--------------------------------------------------
+
+🎓 ATÖxGem v7.0 (Absolut)
 
 ATÖxGem, tez ve akademik makale yazım sürecinde araştırmacıların saatlerini alan "angarya" süreçleri saniyeler içinde otomatize eden, Python tabanlı gelişmiş bir akademik asistan yazılımıdır.
 
