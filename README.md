@@ -1,4 +1,5 @@
 🎓 ATÖxGem v7.0 (Absolut)
+
 ATÖxGem is an advanced, Python-based academic assistant software designed to automate the tedious and time-consuming tasks of writing theses and academic papers in seconds.
 
 It allows you to manage processes like cross-reference validation, smart PDF archive matching, and automatic source downloading from a single interface—automating the manual workflows where standard reference management tools (like Mendeley, EndNote) often fall short.
